@@ -1,11 +1,6 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
-
+# Product data model
 class LoncaScraperItem(scrapy.Item):
     _id = scrapy.Field()
     stock_code = scrapy.Field()
